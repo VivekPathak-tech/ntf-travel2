@@ -1,0 +1,27 @@
+@import "tailwindcss";
+/* @import "tailwindcss/preflight"; */
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+@theme {
+    --color-customBlue: #25256B;
+    --color-customOrange: #F9B545;
+    --breakpoint-xss: 325px;
+    --breakpoint-s: 450px;
+    --breakpoint-fs: 410px;
+    --font-BodyFont: "Roboto", sans-serif;
+    --font-TitleFont: "Playfair Display", serif;
+    --font-StyleFont: "Dancing Script", cursive;
+    --font-IconFont: "Font Awesome 6 Pro";
+}
+
+:root {
+    --smoke-color: #EBFFF4;
+    --smoke-color2: #dfffed;
+
+    --body-font: "Roboto", sans-serif;
+    --title-font: "Playfair Display", serif;
+    --style-font: "Dancing Script", cursive;
+    --icon-font: "Font Awesome 6 Pro";
+}
