@@ -33,7 +33,10 @@ const StyledTab = styled(Tab)(({ theme }) => ({
 
 const PanelContainer = styled(Box)({
   backgroundColor: '#25256B',
-  paddingBottom: '20px',
+  height: '160px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
   boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
   width: '1100px',
   maxWidth: '1200px',
