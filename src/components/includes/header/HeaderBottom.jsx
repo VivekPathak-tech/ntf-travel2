@@ -225,7 +225,7 @@ function HeaderBottom() {
       }
 
       {window.innerWidth >= 768 &&
-        <div onClick={toggleSearch} className={` ${isSearchOpen ? 'block' : 'hidden'} fixed top-0 right-0 w-full h-full z-20 bg-[#000000e8] text-white`}>
+        <div onClick={toggleSearch} className={` ${isSearchOpen ? 'block' : 'hidden'} fixed top-0 right-0 w-full h-full z-60 bg-[#000000e8] text-white`}>
           <Button className='absolute top-4 right-4 hover:rotate-180 text-white' onClick={toggleSearch}>
             <FontAwesomeIcon style={{ fontSize: '22px' }} icon={faTimes} />
           </Button>
